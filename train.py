@@ -10,7 +10,7 @@ from modules.utils import wasserstein_loss
 train_images = X_train.reshape(-1, 28, 28, 1)
 train_images = (train_images - 127.5) / 127.5
 
-# limiting training set to only threes
+# limiting training set to user input
 number = int(input('What number do you want to generate(from 0-9): '))
 selected = y_train == number
 train_ds = train_images[selected]
