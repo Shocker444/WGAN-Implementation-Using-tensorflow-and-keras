@@ -1,1 +1,1 @@
-# WGAN-Implementation-Number-Generator-
+# WGAN-Implementation (Number-Generator)
