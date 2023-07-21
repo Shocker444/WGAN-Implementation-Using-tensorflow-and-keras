@@ -15,6 +15,8 @@
   Then install the requirements "pip install requirements.txt"
   
   After, cd into the directory and run "python train.py" on your terminal.
+
+  The generated numbers are plotted and stored in the folder to view after training.
   
   
   
